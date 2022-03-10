@@ -9,6 +9,10 @@
     --cor3: #128A12;
     --cor4: #0D630D;
     --cor5: #05B066;
+    --cor6: #F3E80F;
+    --cor7: #AC2931;
+    --cor8: #5FD547;
+    --cor9: #0AAEF3;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'League Spartan', cursive;
@@ -34,7 +38,7 @@ header {
 header > h1 {
     color: white;
     font-family: var(--fonte-padrao);
-    font-size: 3.5em;
+    font-size: 4em;
     margin-bottom: 20px;
     text-shadow: 5px 10px 5px black;
 }
@@ -75,19 +79,19 @@ nav a.home {
 }
 
 nav a.consoles {
-    color: #F3E80F;
+    color: var(--cor6);
 }
 
 nav a.jogos {
-    color: #AC2931;
+    color: var(--cor7);
 }
 
 nav a.servicos {
-    color: #5FD547;
+    color: var(--cor8);
 }
 
 nav a.controles {
-    color: #0AAEF3;
+    color: var(--cor9);
 }
 
 main {
@@ -120,10 +124,11 @@ main h2 {
 
 main h3 {
     font-family: var(--fonte-padrao);
-    padding: 10px;
-    font-size: 1.3em;
+    padding: 20px;
+    font-size: 1.5em;
     font-weight: bold;
     text-indent: 30px;
+    text-align: center;
 }
 
 main p {
@@ -153,11 +158,13 @@ main a:hover {
 }
 
 main img {
-    width: 100%;
+    width: 50%;
+    margin: auto;
+    display: block;
 }
 
 main > article > .consoleh2 {
-    color: #F3E80F;
+    color: var(--cor6);
     background-color: black;
     text-align: center;
     margin: 0px 770px 0px -20px;
@@ -165,7 +172,7 @@ main > article > .consoleh2 {
 }
 
 main > article > .jogosh2 {
-    color: #AC2931;
+    color: var(--cor7);
     background-color: black;
     text-align: center;
     margin: 0px 770px 0px -20px;
@@ -173,7 +180,7 @@ main > article > .jogosh2 {
 }
 
 main > article > .servicosh2 {
-    color: #5FD547;
+    color: var(--cor8);
     background-color: black;
     text-align: center;
     margin: 0px 770px 0px -20px;
@@ -181,7 +188,7 @@ main > article > .servicosh2 {
 }
 
 main > article > .controladoresh2 {
-    color: #0AAEF3;
+    color: var(--cor9);
     background-color: black;
     text-align: center;
     margin: 0px 770px 0px -20px;;
@@ -224,6 +231,12 @@ aside > ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
+    padding: 10px;
+}
+
+aside > ul > li {
+    padding: 10px;
+    font-weight: bold;
 }
 
 footer {
