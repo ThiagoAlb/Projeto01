@@ -168,6 +168,7 @@ main > article > #consoleh2 {
     background-color: black;
     text-align: center;
     margin: 0px 770px 0px -20px;
+    min-width: 40%;
     border-radius: 0px 20px 20px 0px;
 }
 
@@ -176,6 +177,7 @@ main > article > #jogosh2 {
     background-color: black;
     text-align: center;
     margin: 0px 770px 0px -20px;
+    min-width: 40%;
     border-radius: 0px 20px 20px 0px;
 }
 
@@ -184,6 +186,7 @@ main > article > #servicosh2 {
     background-color: black;
     text-align: center;
     margin: 0px 770px 0px -20px;
+    min-width: 40%;
     border-radius: 0px 20px 20px 0px;
 }
 
@@ -191,7 +194,8 @@ main > article > #controladoresh2 {
     color: var(--cor9);
     background-color: black;
     text-align: center;
-    margin: 0px 770px 0px -20px;;
+    margin: 0px 770px 0px -20px;
+    min-width: 40%;
     border-radius: 0px 20px 20px 0px;
 }
 
