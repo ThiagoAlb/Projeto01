@@ -74,23 +74,23 @@ nav > a:hover {
     color: white;
 }
 
-nav a.home {
+nav a#home {
     color: white;
 }
 
-nav a.consoles {
+nav a#consoles {
     color: var(--cor6);
 }
 
-nav a.jogos {
+nav a#jogos {
     color: var(--cor7);
 }
 
-nav a.servicos {
+nav a#servicos {
     color: var(--cor8);
 }
 
-nav a.controles {
+nav a#controles {
     color: var(--cor9);
 }
 
@@ -163,7 +163,7 @@ main img {
     display: block;
 }
 
-main > article > .consoleh2 {
+main > article > #consoleh2 {
     color: var(--cor6);
     background-color: black;
     text-align: center;
@@ -171,7 +171,7 @@ main > article > .consoleh2 {
     border-radius: 0px 20px 20px 0px;
 }
 
-main > article > .jogosh2 {
+main > article > #jogosh2 {
     color: var(--cor7);
     background-color: black;
     text-align: center;
@@ -179,7 +179,7 @@ main > article > .jogosh2 {
     border-radius: 0px 20px 20px 0px;
 }
 
-main > article > .servicosh2 {
+main > article > #servicosh2 {
     color: var(--cor8);
     background-color: black;
     text-align: center;
@@ -187,7 +187,7 @@ main > article > .servicosh2 {
     border-radius: 0px 20px 20px 0px;
 }
 
-main > article > .controladoresh2 {
+main > article > #controladoresh2 {
     color: var(--cor9);
     background-color: black;
     text-align: center;
