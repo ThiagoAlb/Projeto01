@@ -74,10 +74,6 @@ nav > a:hover {
     color: white;
 }
 
-nav a#home {
-    color: white;
-}
-
 nav a#consoles {
     color: var(--cor6);
 }
@@ -168,7 +164,7 @@ main > article > #consoleh2 {
     background-color: black;
     text-align: center;
     margin: 0px 770px 0px -20px;
-    min-width: 40%;
+    min-width: 48%;
     border-radius: 0px 20px 20px 0px;
 }
 
@@ -177,7 +173,7 @@ main > article > #jogosh2 {
     background-color: black;
     text-align: center;
     margin: 0px 770px 0px -20px;
-    min-width: 40%;
+    min-width: 48%;
     border-radius: 0px 20px 20px 0px;
 }
 
@@ -186,7 +182,7 @@ main > article > #servicosh2 {
     background-color: black;
     text-align: center;
     margin: 0px 770px 0px -20px;
-    min-width: 40%;
+    min-width: 48%;
     border-radius: 0px 20px 20px 0px;
 }
 
@@ -195,7 +191,7 @@ main > article > #controladoresh2 {
     background-color: black;
     text-align: center;
     margin: 0px 770px 0px -20px;
-    min-width: 40%;
+    min-width: 48%;
     border-radius: 0px 20px 20px 0px;
 }
 
